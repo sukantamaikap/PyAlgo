@@ -1,5 +1,6 @@
 import unittest
-from search.searches import Searches
+
+from src.search.searches import Searches
 
 
 class TestSearches(unittest.TestCase):
