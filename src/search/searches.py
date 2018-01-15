@@ -2,8 +2,8 @@ import array
 
 
 class Searches:
-
-    def binary_search(self, ar, key):
+    @staticmethod
+    def binary_search(ar, key):
         """ search from array ar for the key k, it should be sorted, otherwise, the behavior is unpredictable"""
         if not isinstance(ar, type(array)):
             print('wrong instance passed, pass an array for search')
@@ -20,4 +20,3 @@ class Searches:
             else:
                 high = mid - 1
         return None
-
